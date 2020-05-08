@@ -1,7 +1,7 @@
 .idea
 
-/client-servcice/node_modules
-/client-ui/node_modules
+/app-servcice/node_modules
+/app-ui/node_modules
 /video-servcice/node_modules
 
 .idea
