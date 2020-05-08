@@ -10,17 +10,29 @@ services:
       POSTGRES_DB: "postgres"
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-  builder-server:
+  app-ui:
     build:
-      context: ./client-app
+      context: ./app-ui
       dockerfile: Dockerfile
     ports:
       - "3005"
     environment:
-      - INSTANCE=builder-server
+      - INSTANCE=app-service
+  app-service:
+    build:
+      context: ./app-service
+      dockerfile: Dockerfile
+    ports:
+      - "3006"
+  video-service:
+    build:
+      context: ./app-service
+      dockerfile: Dockerfile
+    ports:
+      - "3007"
   nginx:
     build:
-      context: ./client-service
+      context: ./app-ui
       dockerfile: Dockerfile
     depends_on:
       - builder-server
