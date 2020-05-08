@@ -1,9 +1,9 @@
 .idea
 
-/app-service/node_modules
+/services/app-service/node_modules
 /app-ui/node_modules
-/video-service/node_modules
-
+/services/video-service/node_modules
+/services/messaging-service/node_modules
 .idea
 # misc
 .DS_Store

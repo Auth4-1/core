@@ -1,0 +1,23 @@
+User:
+    required:
+        HEB - famely name - only letters
+        HEB -private name - only letters
+        famely name - only letters
+        private name - only letters
+        id (alpha numeric)  - list
+        sex M F Not binary
+        name before married
+        passport
+        adress 1
+        adress 2
+        email
+        postal code (mikod)
+        fameley status
+        telephone = list type tel /pel
+         גובה
+         משקל
+         שם האם שם האב
+         מקום העבודה
+         שם מקום העבודה
+         מעסיק
+         מובטל .מועסק

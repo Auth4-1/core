@@ -20,13 +20,13 @@ services:
       - INSTANCE=app-service
   app-service:
     build:
-      context: ./app-service
+      context: services/app-service
       dockerfile: Dockerfile
     ports:
       - "3006"
   video-service:
     build:
-      context: ./app-service
+      context: services/app-service
       dockerfile: Dockerfile
     ports:
       - "3007"
