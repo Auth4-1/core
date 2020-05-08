@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "./install.sh",
-    "dev": "./development.sh"
+    "install": "scripts/install.sh",
+    "dev": "scripts/development.sh",
+    "lint": "scripts/lint.sh"
   },
   "repository": {
     "type": "git",
