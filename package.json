@@ -1,0 +1,20 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "./install.sh",
+    "dev": "./development.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terem-Emergency-Medical-Centers/core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terem-Emergency-Medical-Centers/core/issues"
+  },
+  "homepage": "https://github.com/Terem-Emergency-Medical-Centers/core#readme"
+}
