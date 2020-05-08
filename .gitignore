@@ -1,8 +1,8 @@
 .idea
 
-/app-servcice/node_modules
+/app-service/node_modules
 /app-ui/node_modules
-/video-servcice/node_modules
+/video-service/node_modules
 
 .idea
 # misc
