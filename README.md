@@ -8,6 +8,7 @@ Summary:
 
 Available Scripts:
 
-- `npm run dec` - runs all environment in development mode.
-- `npm run lint` - runs linter on all services and ui .
+(*) all scripts located at root path `/scripts`
+- `npm run dev` - runs all environment in development mode using - Foreman builder.
+- `npm run lint` - runs linter on all services and ui with - Eslint.
 - `npm install` - install all environment projects .
