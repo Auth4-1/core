@@ -35,9 +35,9 @@ services:
       context: ./app-ui
       dockerfile: Dockerfile
     depends_on:
-      - builder-server
+      - builder-basic-server
     ports:
       - "8080:80"
     links:
-      - builder-server:builder-server
+      - builder-basic-server:builder-basic-server
     restart: always

@@ -1,6 +1,6 @@
+const winston = require('winston');
 
 const initLogger = (outputFilePath, serviceName) => {
-    const winston = require('services/utils/logger/winston');
 
     const logger = winston.createLogger({
         level: 'info',
@@ -19,6 +19,4 @@ const initLogger = (outputFilePath, serviceName) => {
     return logger
 };
 
-exports = {
-    initLogger
-};
+module.exports = initLogger;
